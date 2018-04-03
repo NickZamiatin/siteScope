@@ -6,9 +6,10 @@
 
 
 
-function myFunc() {
+ (function () {
+
+
   let fName = prompt("Tipe your first name " );
   let lName = prompt("Tipe your last name " );
   console.log(`Welcome to Galvanize ${fName} ${lName}`)
-}
- myFunc()
+})()
